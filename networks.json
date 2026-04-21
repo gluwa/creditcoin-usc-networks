@@ -35,7 +35,9 @@
         "3": {
           "name": "sepolia",
           "archiver_url": "https://archiver-sepolia.cc3-devnet.creditcoin.network",
-          "bootnodes": []
+          "bootnodes": [
+            "/dns4/cc3-dev-sepolia-attestor-bootnode-headless/tcp/9000/p2p/12D3KooWAQpv2VLRVgGnhvVtoYEKbtvGvqQMGD2Qa7aEebGGW6ip"
+          ]
         }
       }
     },
