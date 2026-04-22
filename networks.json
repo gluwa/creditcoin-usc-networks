@@ -5,20 +5,21 @@
       "graphql_url": "https://attestations-graphql.usc-devnet.creditcoin.network/",
       "proof_api_url": "https://proof-gen-api.usc-devnet.creditcoin.network",
       "creditcoin3_url": "wss://rpc.usc-devnet.creditcoin.network",
+      "creditcoin3_bootnode": "/dns4/cc3-usc-dev-bootnode-creditcoin-bootnode/tcp/30333/p2p/12D3KooWBmAwcd4PJNJvfV89HwE48nwkRmAgo8Vy3uQEyNNHBox2",
       "blockscout_url": "https://explorer.usc-devnet.creditcoin.network",
       "dashboard_url": "https://dashboard.usc-devnet.creditcoin.network",
       "supported_chains": {
         "3": {
           "name": "sepolia",
           "archiver_url": "https://archiver-sepolia.usc-devnet.creditcoin.network",
-          "bootnodes": [
+          "attestor_bootnodes": [
             "/dns4/cc3-usc-dev-attestor-bootnode-headless/tcp/9000/p2p/12D3KooWB91jHy5QX62pXN4KP3yaArprXWVPekCBafZupFrxRQLU"
           ]
         },
         "8": {
           "name": "bsc-testnet",
           "archiver_url": null,
-          "bootnodes": [
+          "attestor_bootnodes": [
             "/dns4/cc3-usc-dev-bsc-testnet-attestor-bootnode-headless/tcp/9001/p2p/12D3KooWPe8LUzF8XTeVaDXAUnaMoPf6RToeUSbrWeaptdGPhmP6"
           ]
         }
@@ -29,13 +30,14 @@
       "graphql_url": "https://attestations-graphql.cc3-devnet.creditcoin.network/",
       "proof_api_url": "https://proof-gen-api.cc3-devnet.creditcoin.network",
       "creditcoin3_url": "wss://rpc.cc3-devnet.creditcoin.network",
+      "creditcoin3_bootnode": "/dns4/cc3-dev-creditcoin-bootnode/tcp/30333/p2p/12D3KooWFCBMV5VosXByvDGKAr9bcg6iW6p6KjgGZHjJSuszVYq8",
       "blockscout_url": "https://creditcoin-devnet.blockscout.com/",
       "dashboard_url": "https://dashboard.cc3-devnet.creditcoin.network",
       "supported_chains": {
         "3": {
           "name": "sepolia",
           "archiver_url": "https://archiver-sepolia.cc3-devnet.creditcoin.network",
-          "bootnodes": [
+          "attestor_bootnodes": [
             "/dns4/cc3-dev-sepolia-attestor-bootnode-headless/tcp/9000/p2p/12D3KooWAQpv2VLRVgGnhvVtoYEKbtvGvqQMGD2Qa7aEebGGW6ip"
           ]
         }
@@ -46,13 +48,14 @@
       "graphql_url": null,
       "proof_api_url": "https://proof-gen-api.cc3-devnet-dryrun.creditcoin.network",
       "creditcoin3_url": "wss://rpc.cc3-devnet-dryrun.creditcoin.network",
+      "creditcoin3_bootnode": "/dns4/cc3-drynet-creditcoin-bootnode.eastus.cloudapp.azure.com/tcp/30333/p2p/12D3KooWB4sfRQ1g8H9WhcTgXnhB9G1kNCyraCTxnnBKQdMP73GX",
       "blockscout_url": "https://explorer.cc3-devnet-dryrun.creditcoin.network",
       "dashboard_url": null,
       "supported_chains": {
         "1": {
           "name": "ethereum",
           "archiver_url": "https://archiver-sepolia.cc3-devnet-dryrun.creditcoin.network",
-          "bootnodes": [
+          "attestor_bootnodes": [
             "/dns4/cc3-mainnet-usc-dryrun-testnet-attestor-bootnode-headless/tcp/9000/p2p/12D3KooWEbUGxYyuZi7c3YC23adMMJKMTdy6PmJYaHtuReR6R6Us"
           ]
         }
@@ -63,13 +66,14 @@
       "graphql_url": "https://attestations-graphql.usc-testnet2.creditcoin.network",
       "proof_api_url": "https://proof-gen-api.usc-testnet2.creditcoin.network",
       "creditcoin3_url": "wss://rpc.usc-testnet2.creditcoin.network",
+      "creditcoin3_bootnode": "/dns4/cc3-usc-testnet-bootnode-creditcoin-bootnode/tcp/30333/p2p/12D3KooWBmAwcd4PJNJvfV89HwE48nwkRmAgo8Vy3uQEyNNHBox2",
       "blockscout_url": "https://explorer.usc-testnet2.creditcoin.network",
       "dashboard_url": "https://dashboard.usc-testnet2.creditcoin.network",
       "supported_chains": {
         "1": {
           "name": "sepolia",
           "archiver_url": null,
-          "bootnodes": [
+          "attestor_bootnodes": [
             "/dns4/cc3-usc-testnet-attestor-bootnode-headless/tcp/9000/p2p/12D3KooWEHQNfpDkvvpiFnHwjbTih5t9bcZ9o9MCCS7q5Bn8tEpe"
           ]
         }
